@@ -9,6 +9,7 @@ interface Movie {
   }
 
 const SearchBar: React.FC = () => {
+   
     return (
       <Form>
         <FormControl
