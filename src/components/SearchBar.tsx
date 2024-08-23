@@ -9,7 +9,19 @@ interface Movie {
   }
 
 const SearchBar: React.FC = () => {
-   
+    const [movies, setMovies] = useState<Movie[]>([]);
+
+    useEffect(() => {
+        const fetchMovies = async () => {
+          const response = await axios.get<Movie[]>('http://localhost:3001/movies');
+          setMovies(response.data);
+        };
+    
+        fetchMovies();
+      }, []);
+    
+      console.log(movies);
+    
     return (
       <Form>
         <FormControl
