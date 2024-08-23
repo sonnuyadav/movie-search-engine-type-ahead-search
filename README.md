@@ -25,7 +25,8 @@ Output
 1. https://prnt.sc/GB1TrNgaymps
 2. https://prnt.sc/D9fSMEtkABWp
 3. https://prnt.sc/KudUJ0tT_6HX
-   Record not found
+
+    Record not found
 5. https://prnt.sc/2SQHfLMg0mLO
 
    JSON Server movies list
